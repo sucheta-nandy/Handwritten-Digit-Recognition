@@ -2,6 +2,7 @@
 The handwritten digit recognition is the ability of computers to recognize human handwritten digits. 
 It is a hard task for the machine because handwritten digits are not perfect and can be made with many different flavors. 
 The handwritten digit recognition is the solution to this problem which uses the image of a digit and recognizes the digit present in the image.
+
 Below are the steps to implement the handwritten digit recognition project:
 ## 1. Import the libraries and load the dataset
 First, we are going to import all the modules that we are going to need for training our model. The Keras library already contains some datasets and MNIST is one of them. So we can easily import the dataset and start working with it. The mnist.load_data() method returns us the training data, its labels and also the testing data and its labels.
@@ -24,7 +25,7 @@ Now for the GUI, we have created a new file in which we build an interactive win
 Then we create the App class which is responsible for building the GUI for our app. We create a canvas where we can draw by capturing the mouse event and with a button, we trigger the predict_digit() function and display the results.
 
  
-##Summary
+## Summary
 We have successfully built a Python deep learning project on handwritten digit recognition app. 
 We have built and trained the Convolutional neural network which is very effective for image classification purposes. 
 Later on, we build the GUI where we draw a digit on the canvas then we classify the digit and show the results.
